@@ -13,57 +13,57 @@ export const ProductList = styled.ul`
     background: #fff;
     border-radius: 4px;
     padding: 20px;
-  }
 
-  img {
-    align-items: center;
-    max-width: 250px;
-  }
-
-  > strong {
-    font-size: 16px;
-    line-height: 20px;
-    color: #333;
-    margin-top: 5px;
-  }
-
-  > span {
-    font-size: 21px;
-    font-weight: bold;
-    margin: 5px 0 20px;
-  }
-
-  button {
-    background: #7159c1;
-    color: #fff;
-    border: 0;
-    border-radius: 4px;
-    overflow: hidden;
-    margin-top: auto;
-
-    display: flex;
-    align-items: center;
-    transition: background 0.2s;
-
-    &:hover {
-      background: ${darken(0.03, '#7159c1')};
+    img {
+      align-items: center;
+      max-width: 250px;
     }
 
-    div {
+    > strong {
+      font-size: 16px;
+      line-height: 20px;
+      color: #333;
+      margin-top: 5px;
+    }
+
+    > span {
+      font-size: 21px;
+      font-weight: bold;
+      margin: 5px 0 20px;
+    }
+
+    button {
+      background: #7159c1;
+      color: #fff;
+      border: 0;
+      border-radius: 4px;
+      overflow: hidden;
+      margin-top: auto;
+
       display: flex;
       align-items: center;
-      padding: 12px;
-      background: rgba(0, 0, 0, 0.1);
+      transition: background 0.2s;
 
-      svg {
-        margin-right: 5px;
+      &:hover {
+        background: ${darken(0.03, '#7159c1')};
       }
-    }
 
-    span {
-      flex: 1;
-      text-align: center;
-      font-weight: bold;
+      div {
+        display: flex;
+        align-items: center;
+        padding: 12px;
+        background: rgba(0, 0, 0, 0.1);
+
+        svg {
+          margin-right: 5px;
+        }
+      }
+
+      span {
+        flex: 1;
+        text-align: center;
+        font-weight: bold;
+      }
     }
   }
 `;
